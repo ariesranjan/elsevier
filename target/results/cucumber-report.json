@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7089764466,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on application home page",
+            "match": {
+              "location": "AddToCart.userIsOnTheDetailsPolicyExpertPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4890019835,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.launchDriver()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Verify the user is able to add summer dresses to the cart and able to navigate to Sign In page",
+        "description": "",
+        "id": "to-verify-that-summer-dresses-can-be-added-to-the-cart;verify-the-user-is-able-to-add-summer-dresses-to-the-cart-and-able-to-navigate-to-sign-in-page",
+        "after": [
+          {
+            "result": {
+              "duration": 133681446,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3211952864,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on women tab",
+            "match": {
+              "location": "AddToCart.userClicksOnWomenTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2578418739,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on dresses link",
+            "match": {
+              "location": "AddToCart.userClicksOnDresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2608344312,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on summer dresses link",
+            "match": {
+              "location": "AddToCart.userClicksOnSummerDresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2859201994,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on printed summer dresses link",
+            "match": {
+              "location": "AddToCart.userClicksOnPrintedSummerDresses()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47851199,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on add to cart button",
+            "match": {
+              "location": "AddToCart.userClicksOnAddToCartButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2993291430,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on proceed to checkout button",
+            "match": {
+              "location": "AddToCart.userClicksOnProceedToCheckoutButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2939784193,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user clicks on proceed to checkout button in cart navigation",
+            "match": {
+              "location": "AddToCart.userClicksOnProceedToCheckoutButtonInCartNav()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41855243,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is verifying that sign in page is displayed",
+            "match": {
+              "location": "AddToCart.verifyLoginFormDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@AddToCart"
+          },
+          {
+            "line": 6,
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "To verify that summer dresses can be added to the cart",
+    "description": "",
+    "id": "to-verify-that-summer-dresses-can-be-added-to-the-cart",
+    "keyword": "Feature",
+    "uri": "AddToCartSummerDress.feature"
+  }
+]
